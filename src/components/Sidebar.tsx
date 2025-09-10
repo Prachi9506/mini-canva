@@ -47,7 +47,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   const actionItems = [
-    { id: 'undo', icon: RotateCcw, label: 'Undo', action: onUndo },
+    // { id: 'undo', icon: RotateCcw, label: 'Undo', action: onUndo },
     { id: 'redo', icon: RotateCw, label: 'Redo', action: onRedo },
     { id: 'save', icon: Save, label: 'Save', action: onSave },
     { id: 'export', icon: Download, label: 'Export', action: onExport },
