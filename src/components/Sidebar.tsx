@@ -40,7 +40,7 @@ const Sidebar: React.FC<SidebarProps> = ({
     { id: 'text', icon: Type, label: 'Text' },
     { id: 'shapes', icon: Square, label: 'Shapes' },
     { id: 'stickers', icon: Smile, label: 'Stickers' },
-    { id: 'images', icon: Image, label: 'Images' },
+    // { id: 'images', icon: Image, label: 'Images' },
     // { id: 'background', icon: Palette, label: 'Background' },
     // { id: 'templates', icon: Layout, label: 'Templates' },
     { id: 'layers', icon: Layers, label: 'Layers' },
