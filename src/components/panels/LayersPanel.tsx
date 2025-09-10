@@ -96,13 +96,13 @@ const LayersPanel: React.FC<LayersPanelProps> = ({ canvas }) => {
                   {obj.visible ? <Eye size={16} /> : <EyeOff size={16} />}
                 </button>
                 
-                <button
+                {/* <button
                   onClick={() => moveObject(obj, 'up')}
                   className="p-1 text-gray-500 hover:text-gray-700"
                   title="Bring Forward"
                 >
                   <ArrowUp size={16} />
-                </button>
+                </button> */}
                 
                 <button
                   onClick={() => moveObject(obj, 'down')}
