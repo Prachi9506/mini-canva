@@ -104,13 +104,13 @@ const LayersPanel: React.FC<LayersPanelProps> = ({ canvas }) => {
                   <ArrowUp size={16} />
                 </button> */}
                 
-                <button
+                {/* <button
                   onClick={() => moveObject(obj, 'down')}
                   className="p-1 text-gray-500 hover:text-gray-700"
                   title="Send Backward"
                 >
                   <ArrowDown size={16} />
-                </button>
+                </button> */}
                 
                 <button
                   onClick={() => deleteObject(obj)}
