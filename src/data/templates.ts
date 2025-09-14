@@ -2,7 +2,7 @@ import { PosterTemplate } from '../types';
 
 export const posterTemplates: PosterTemplate[] = [
   {
-    id: 'event-1',
+    id: 'event-1', 
     name: 'Music Event',
     category: 'Events',
     thumbnail: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=300',
